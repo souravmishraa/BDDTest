@@ -1246,6 +1246,18 @@
           "build/Selenium.WebDriver.ChromeDriver.targets": {}
         }
       },
+      "Selenium.WebDriver.GeckoDriver/0.36.0": {
+        "type": "package",
+        "build": {
+          "build/Selenium.WebDriver.GeckoDriver.targets": {}
+        }
+      },
+      "Selenium.WebDriver.MicrosoftDriver/17.17134.0": {
+        "type": "package",
+        "build": {
+          "build/Selenium.WebDriver.MicrosoftDriver.targets": {}
+        }
+      },
       "SharpZipLib/1.4.2": {
         "type": "package",
         "compile": {
@@ -4345,6 +4357,40 @@
         "nupkg-icon.png",
         "selenium.webdriver.chromedriver.135.0.7049.8400.nupkg.sha512",
         "selenium.webdriver.chromedriver.nuspec"
+      ]
+    },
+    "Selenium.WebDriver.GeckoDriver/0.36.0": {
+      "sha512": "jUdrPcwkVt8OJon4iWv6pNTPIAdViJYB9cbd4ct0Bt2RzPzynQiN8bBUfOA1iSxTppI9SH8L1eMfg5NRijlBsw==",
+      "type": "package",
+      "path": "selenium.webdriver.geckodriver/0.36.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "build/DefinePropertiesGeckoDriver.targets",
+        "build/Selenium.WebDriver.GeckoDriver.targets",
+        "driver/linux64/geckodriver",
+        "driver/mac64/geckodriver",
+        "driver/mac64arm/geckodriver",
+        "driver/win32/geckodriver.exe",
+        "driver/win64/geckodriver.exe",
+        "nupkg-icon.png",
+        "selenium.webdriver.geckodriver.0.36.0.nupkg.sha512",
+        "selenium.webdriver.geckodriver.nuspec"
+      ]
+    },
+    "Selenium.WebDriver.MicrosoftDriver/17.17134.0": {
+      "sha512": "22tIqQPNbFqWx32YO9XNKvWOcBu3Y98a+qb98xo3k37TkV/qPz7AbohsfaHBtizQtAqbQ5GHNM7re30uvF+amw==",
+      "type": "package",
+      "path": "selenium.webdriver.microsoftdriver/17.17134.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Selenium.WebDriver.MicrosoftDriver.targets",
+        "driver/MicrosoftWebDriver.exe",
+        "selenium.webdriver.microsoftdriver.17.17134.0.nupkg.sha512",
+        "selenium.webdriver.microsoftdriver.nuspec"
       ]
     },
     "SharpZipLib/1.4.2": {
@@ -8203,6 +8249,8 @@
       "Selenium.Support >= 4.31.0",
       "Selenium.WebDriver >= 4.31.0",
       "Selenium.WebDriver.ChromeDriver >= 135.0.7049.8400",
+      "Selenium.WebDriver.GeckoDriver >= 0.36.0",
+      "Selenium.WebDriver.MicrosoftDriver >= 17.17134.0",
       "SpecFlow >= 3.9.74",
       "SpecFlow.Assist.Dynamic >= 1.4.2",
       "SpecFlow.NUnit >= 3.9.74",
@@ -8307,6 +8355,14 @@
             "target": "Package",
             "version": "[135.0.7049.8400, )"
           },
+          "Selenium.WebDriver.GeckoDriver": {
+            "target": "Package",
+            "version": "[0.36.0, )"
+          },
+          "Selenium.WebDriver.MicrosoftDriver": {
+            "target": "Package",
+            "version": "[17.17134.0, )"
+          },
           "SpecFlow": {
             "target": "Package",
             "version": "[3.9.74, )"
@@ -8335,12 +8391,22 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.16, 8.0.16]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.16, 8.0.16]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.409/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

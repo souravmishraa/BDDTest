@@ -198,3 +198,4 @@
 /home/knoldus/MySpecFlowTests/obj/Debug/net8.0/MySpecFlowTests.pdb
 /home/knoldus/MySpecFlowTests/obj/Debug/net8.0/MySpecFlowTests.genruntimeconfig.cache
 /home/knoldus/MySpecFlowTests/obj/Debug/net8.0/ref/MySpecFlowTests.dll
+/home/knoldus/MySpecFlowTests/obj/Debug/net8.0/MySpecFlowTests.sourcelink.json

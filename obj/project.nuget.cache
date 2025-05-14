@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7hCfVyisXIY=",
+  "dgSpecHash": "AjKqyAajlrA=",
   "success": true,
   "projectFilePath": "/home/knoldus/MySpecFlowTests/MySpecFlowTests.csproj",
   "expectedPackageFiles": [
@@ -62,6 +62,8 @@
     "/home/knoldus/.nuget/packages/selenium.support/4.31.0/selenium.support.4.31.0.nupkg.sha512",
     "/home/knoldus/.nuget/packages/selenium.webdriver/4.31.0/selenium.webdriver.4.31.0.nupkg.sha512",
     "/home/knoldus/.nuget/packages/selenium.webdriver.chromedriver/135.0.7049.8400/selenium.webdriver.chromedriver.135.0.7049.8400.nupkg.sha512",
+    "/home/knoldus/.nuget/packages/selenium.webdriver.geckodriver/0.36.0/selenium.webdriver.geckodriver.0.36.0.nupkg.sha512",
+    "/home/knoldus/.nuget/packages/selenium.webdriver.microsoftdriver/17.17134.0/selenium.webdriver.microsoftdriver.17.17134.0.nupkg.sha512",
     "/home/knoldus/.nuget/packages/sharpziplib/1.4.2/sharpziplib.1.4.2.nupkg.sha512",
     "/home/knoldus/.nuget/packages/sixlabors.fonts/1.0.1/sixlabors.fonts.1.0.1.nupkg.sha512",
     "/home/knoldus/.nuget/packages/sixlabors.imagesharp/2.1.10/sixlabors.imagesharp.2.1.10.nupkg.sha512",
@@ -136,7 +138,9 @@
     "/home/knoldus/.nuget/packages/system.threading.tasks.extensions/4.3.0/system.threading.tasks.extensions.4.3.0.nupkg.sha512",
     "/home/knoldus/.nuget/packages/system.threading.timer/4.3.0/system.threading.timer.4.3.0.nupkg.sha512",
     "/home/knoldus/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "/home/knoldus/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512"
+    "/home/knoldus/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
+    "/home/knoldus/.nuget/packages/microsoft.netcore.app.ref/8.0.16/microsoft.netcore.app.ref.8.0.16.nupkg.sha512",
+    "/home/knoldus/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.16/microsoft.aspnetcore.app.ref.8.0.16.nupkg.sha512"
   ],
   "logs": []
 }

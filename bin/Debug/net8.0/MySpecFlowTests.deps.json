@@ -22,6 +22,8 @@
           "Selenium.Support": "4.31.0",
           "Selenium.WebDriver": "4.31.0",
           "Selenium.WebDriver.ChromeDriver": "135.0.7049.8400",
+          "Selenium.WebDriver.GeckoDriver": "0.36.0",
+          "Selenium.WebDriver.MicrosoftDriver": "17.17134.0",
           "SpecFlow": "3.9.74",
           "SpecFlow.Assist.Dynamic": "1.4.2",
           "SpecFlow.NUnit": "3.9.74",
@@ -912,6 +914,8 @@
         }
       },
       "Selenium.WebDriver.ChromeDriver/135.0.7049.8400": {},
+      "Selenium.WebDriver.GeckoDriver/0.36.0": {},
+      "Selenium.WebDriver.MicrosoftDriver/17.17134.0": {},
       "SharpZipLib/1.4.2": {
         "runtime": {
           "lib/net6.0/ICSharpCode.SharpZipLib.dll": {
@@ -2077,6 +2081,20 @@
       "sha512": "sha512-QndVENpH0irVmhx8IE4n8b3UcLZn7XfpeNCAaX6UCIvwsI9CHowbfUCeHj1qKHtGOiC2QFiBFrhFFdVifhGT/A==",
       "path": "selenium.webdriver.chromedriver/135.0.7049.8400",
       "hashPath": "selenium.webdriver.chromedriver.135.0.7049.8400.nupkg.sha512"
+    },
+    "Selenium.WebDriver.GeckoDriver/0.36.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jUdrPcwkVt8OJon4iWv6pNTPIAdViJYB9cbd4ct0Bt2RzPzynQiN8bBUfOA1iSxTppI9SH8L1eMfg5NRijlBsw==",
+      "path": "selenium.webdriver.geckodriver/0.36.0",
+      "hashPath": "selenium.webdriver.geckodriver.0.36.0.nupkg.sha512"
+    },
+    "Selenium.WebDriver.MicrosoftDriver/17.17134.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-22tIqQPNbFqWx32YO9XNKvWOcBu3Y98a+qb98xo3k37TkV/qPz7AbohsfaHBtizQtAqbQ5GHNM7re30uvF+amw==",
+      "path": "selenium.webdriver.microsoftdriver/17.17134.0",
+      "hashPath": "selenium.webdriver.microsoftdriver.17.17134.0.nupkg.sha512"
     },
     "SharpZipLib/1.4.2": {
       "type": "package",
