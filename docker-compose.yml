@@ -1,0 +1,15 @@
+services:
+  selenium:
+    image: selenium/standalone-chrome
+    container_name: selenium_chrome
+    ports:
+      - "4444:4444"
+    shm_size: '2gb'
+
+  tests:
+    image: myspecflowtests
+    container_name: specflow_tests
+    depends_on:
+      - selenium
+    environment:
+      - SELENIUM_URL=http://selenium:4444/wd/hub
